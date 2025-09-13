@@ -1,9 +1,16 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import tailwindcss from '@tailwindcss/vite'
+// vite.config.js
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
-// https://vite.dev/config/
 export default defineConfig({
-  plugins: [tailwindcss(),
-    react()],
-})
+  plugins: [react()],
+  build: {
+    rollupOptions: {
+      input: "index.html"
+    }
+  },
+  server: {
+    // SPA fallback for dev server
+    historyApiFallback: true
+  }
+});
