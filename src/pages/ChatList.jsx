@@ -1,5 +1,5 @@
 import Navbar from "../components/Navbar.jsx";
-import ChatItem from "../components/chatItem.jsx";
+import ChatItem from "../components/ChatItem.jsx";
 import chats from "../data/chats.json";
 
 export default function ChatList() {
