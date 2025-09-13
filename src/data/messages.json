@@ -1,0 +1,27 @@
+{
+  "1": [
+    { "sender": "Rahul Mehta", "text": "Did you check the report I shared?", "time": "10:05 AM" },
+    { "sender": "You", "text": "Yes Rahul, going through it now.", "time": "10:10 AM" },
+    { "sender": "Rahul Mehta", "text": "Got the report, looks good 👍", "time": "10:15 AM" }
+  ],
+  "2": [
+    { "sender": "Priya Sharma", "text": "We need to plan the client call tomorrow.", "time": "09:40 AM" },
+    { "sender": "You", "text": "Yes Priya, let’s set it for 11 AM.", "time": "09:45 AM" },
+    { "sender": "Priya Sharma", "text": "Perfect, I’ll send the invite.", "time": "09:50 AM" }
+  ],
+  "3": [
+    { "sender": "Amit Verma", "text": "Any updates on the UI screens?", "time": "Yesterday" },
+    { "sender": "You", "text": "Almost done, will push tonight.", "time": "Yesterday" }
+  ],
+  "4": [
+    { "sender": "Sneha Reddy", "text": "Lunch at 2? 😋", "time": "Yesterday" },
+    { "sender": "You", "text": "Yes, let’s go!", "time": "Yesterday" }
+  ],
+  "5": [
+    { "sender": "Rahul Mehta", "text": "Morning team, we need to finalize the design draft today.", "time": "09:00 AM" },
+    { "sender": "Priya Sharma", "text": "Agreed. Let’s target finishing by 5 PM.", "time": "09:05 AM" },
+    { "sender": "Amit Verma", "text": "I’ll push the updated UI screens before lunch.", "time": "09:15 AM" },
+    { "sender": "Sneha Reddy", "text": "Great, I’ll start preparing the slides for tomorrow’s client demo.", "time": "09:20 AM" },
+    { "sender": "You", "text": "Awesome teamwork Let’s sync after lunch.", "time": "09:30 AM" }
+  ]
+}

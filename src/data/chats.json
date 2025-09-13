@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Rahul Mehta",
+    "lastMessage": "Got the report, looks good 👍",
+    "time": "10:15 AM",
+    "avatar": "profile1"
+  },
+  {
+    "id": 2,
+    "name": "Priya Sharma",
+    "lastMessage": "Let’s plan the client call tomorrow.",
+    "time": "09:50 AM",
+    "avatar": "profile2"
+  },
+  {
+    "id": 3,
+    "name": "Amit Verma",
+    "lastMessage": "Waiting for your update on UI screens.",
+    "time": "Yesterday",
+    "avatar": "profile3"
+  },
+  {
+    "id": 4,
+    "name": "Sneha Reddy",
+    "lastMessage": "Lunch at 2? 😋",
+    "time": "Yesterday",
+    "avatar": "profile4"
+  },
+  {
+    "id": 5,
+    "name": "Team Project",
+    "lastMessage": "Let’s finalize the design draft today",
+    "time": "Today",
+    "avatar": "group" 
+  }
+]
