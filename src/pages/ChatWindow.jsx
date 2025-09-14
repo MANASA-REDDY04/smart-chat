@@ -16,7 +16,6 @@ export default function ChatWindow() {
   const [messages, setMessages] = useState(messagesData[id] || []);
   const [aiOutput, setAiOutput] = useState("");
 
-  // ✅ Update messages when id changes
   useEffect(() => {
     setMessages(messagesData[id] || []);
     setAiOutput("");
@@ -33,14 +32,12 @@ export default function ChatWindow() {
     <div className="flex flex-col h-screen bg-gray-950 text-gray-200">
       <Navbar title={chatName} showBack={true} />
 
-      {/* Messages */}
       <div className="flex-1 overflow-y-auto p-4 space-y-2">
         {messages.map((msg, index) => (
           <ChatMessage key={index} {...msg} />
         ))}
       </div>
 
-      {/* AI Buttons */}
       <div className="flex gap-2 px-4 mb-3">
         <button
           onClick={() => setAiOutput(summarizeChat())}
@@ -56,14 +53,12 @@ export default function ChatWindow() {
         </button>
       </div>
 
-      {/* AI Output */}
       {aiOutput && (
         <div className="mx-4 mb-3 p-3 bg-gray-800 rounded-lg text-gray-200">
           <strong className="text-purple-400">AI:</strong> {aiOutput}
         </div>
       )}
 
-      {/* Input Box */}
       <div className="p-3 border-t border-gray-800">
         <InputBox onSend={handleSend} />
       </div>
